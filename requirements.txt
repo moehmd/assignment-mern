@@ -1,0 +1,49 @@
+
+Etienne Daher <etienneadaher@gmail.com>
+9:08 AM (22 minutes ago)
+to me
+
+Hello,
+
+As discussed yesterday, please find below the required homework (Code should be shared via github with a 2 minutes screen recorded demo)
+
+NodeJS backend:
+
+Express server listening on localhost:3000, with 4 CRUD APIs:
+POST /employee/create
+PUT /employee/update
+DEL /employee/delete
+GET /employee/list: in this api, we also need to return and show the number of related users found (number of users in the db or array having the same last name)
+
+
+ReactJS frontend (make sure to add a header with a routing method):
+
+Main welcome page
+Employees page showing:
+Table listing all employees
+Add button => popup to add employee
+Edit button => open same popup and edit employee
+X icon on each row, on click => delete employee
+Each employee have:
+
+First Name
+Last Name
+Age
+
+
+Data on server should be stored in an array of objects called 'allEmployees' (If you'd like to take it to the next step, you can save your data in a mongo database)
+
+
+
+All data must be stored in JSON objects, hence, APIs outputs should be json formatted (can be done with express directly)
+
+
+
+Regards/Etienne
+
+
+
+// http://localhost:3666/employee/create
+// http://localhost:3666/employee/update
+// http://localhost:3666/employee/delete
+// http://localhost:3666/employee/list
